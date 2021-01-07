@@ -25,8 +25,8 @@ CMD_REBOOT = CMD_BASE + 7
 EXPECTED_STATUS = 0xFAFAFAFA
 
 DEVICE_DESC = {
-    (0x0c45, 0x766b): "Kemove DK63",
-    (0x0c45, 0x7040): "Kemove DK63 (bootloader)"
+    (0x05ac, 0xc24f): "Keychron K4",
+    (0x0c45, 0x7040): "Keychron K4 (bootloader)"
 }
 
 def hid_set_feature(dev, report):
@@ -331,7 +331,7 @@ if __name__ == '__main__':
     appctxt = ApplicationContext()
     window = MainWindow()
     window.resize(600, 250)
-    window.setWindowTitle("Womier Bricker")
+    window.setWindowTitle("Keychron Bricker")
     window.show()
     sys.excepthook = excepthook
     exit_code = appctxt.app.exec_()

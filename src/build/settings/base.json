@@ -1,5 +1,5 @@
 {
-    "app_name": "Womier Flasher",
+    "app_name": "Keychron Flasher",
     "author": "xyz",
     "main_module": "src/main/python/main.py",
     "version": "0.0.0"
