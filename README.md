@@ -1,9 +1,18 @@
 # Keychron Flasher
 
+Let's all pretend this isn't here and you know nothing about it.
+
+If that statement is true, you have no use for this piece of code
+
+## WILL EAT YOUR CAT
+
+
+
+
 ## Compile
 
 ```
-python3 -m venv venv
+virtualenv venv -p 3.6
 . venv/bin/activate
 pip install wheel
 pip install -r requirements.txt
