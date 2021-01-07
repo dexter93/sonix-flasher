@@ -25,7 +25,7 @@ CMD_REBOOT = CMD_BASE + 7
 EXPECTED_STATUS = 0xFAFAFAFA
 
 DEVICE_DESC = {
-    (0x05ac, 0xc24f): "Keychron K4",
+    (0x05ac, 0x024f): "Keychron K4",
     (0x0c45, 0x7040): "Keychron K4 (bootloader)"
 }
 
