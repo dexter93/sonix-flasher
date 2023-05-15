@@ -24,7 +24,7 @@ jobs:
           draft: false
           prerelease: false
   build-linux:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     needs: create-release-tag
     steps:
     - name: Install dependencies
@@ -62,7 +62,7 @@ jobs:
         asset_content_type: application/zip
 
   build-mac:
-    runs-on: macos-latest
+    runs-on: macos-10.15
     needs: create-release-tag
     steps:
     - uses: actions/checkout@v2
@@ -95,7 +95,7 @@ jobs:
         asset_content_type: application/zip
 
   build-win:
-    runs-on: windows-latest
+    runs-on: windows-2019
     needs: create-release-tag
     steps:
     - uses: actions/checkout@v2

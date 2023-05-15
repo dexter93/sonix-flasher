@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-linux:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     steps:
     - name: Install dependencies
@@ -38,7 +38,7 @@ jobs:
         path: target/flasher-linux.tar.xz
 
   build-mac:
-    runs-on: macos-latest
+    runs-on: macos-10.15
 
     steps:
     - uses: actions/checkout@v2
@@ -65,7 +65,7 @@ jobs:
         path: flasher-mac.dmg
 
   build-win:
-    runs-on: windows-latest
+    runs-on: windows-2019
 
     steps:
     - uses: actions/checkout@v2
